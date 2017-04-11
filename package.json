@@ -1,0 +1,27 @@
+{
+  "name": "its-background-job",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthonyjuan/its-background-job.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anthonyjuan/its-background-job/issues"
+  },
+  "homepage": "https://github.com/anthonyjuan/its-background-job#readme",
+  "dependencies": {
+    "cron": "^1.2.1",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.2",
+    "google-auth-library": "^0.10.0",
+    "googleapis": "^19.0.0",
+    "kue": "^0.11.5"
+  }
+}
